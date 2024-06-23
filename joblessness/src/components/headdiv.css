@@ -1,0 +1,75 @@
+:root{
+    --backColor: #171717;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.headdiv-div1{
+    margin-top: 100px;
+    padding: 0;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('/src/assets/contact.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background: var(--backColor);
+    /* border: 3px solid red; */
+}
+
+
+svg {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    top: 0;
+}
+
+.headdiv-div1 h1{
+    display: inline;
+    font-size: 33px;
+
+}
+.headdiv-div1 h2{
+    font-size: 22px;
+    color: purple;
+}
+.headdiv-div1 h1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button{
+    font-size: 17px;
+    width: 122px;
+    height: 2.2rem;
+    font-weight: 600;
+    /* border: 1.3px solid purple; */
+    border: transparent;
+    border-radius: 10px;
+    background-color: #009866;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.button2{
+    font-size: 17px;
+    width: 282px;
+    height: 4.2rem;
+    font-weight: 600;
+    /* border: 1.3px solid purple; */
+    border: transparent;
+    border-radius: 10px;
+    background-color: purple;
+    margin-top: 2.5rem;
+    color: #ffffff;
+}
